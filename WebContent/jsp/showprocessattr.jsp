@@ -41,6 +41,7 @@
 	</div>
 	<script type="text/javascript" src="js/page.js"></script>
 	<script type="text/javascript">
+	//js部分
 	function yesorno(val,row,index){
 		if(row.ismain==1){
 			return "是";
