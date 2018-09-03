@@ -1,0 +1,38 @@
+.main{
+	border: 1px solid green;
+	height: 300px;
+}
+.list{
+	border: 1px solid green;
+	float: left;
+	width: 94%;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.list h1{
+	background:pink;
+	font-size: 30px;
+	font: "微软雅黑";
+	text-decoration: none;
+	margin:5px;
+	padding-left: 20px;
+}
+.list a{
+	margin:5px;
+	display: block;
+	width: 100px;
+	height: 24px;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	float: left;
+	
+}
+.list a:hover{
+	transition: color 0.5s,background 0.5s;
+	color: white;
+	background: green;
+}
